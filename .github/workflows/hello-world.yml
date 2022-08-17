@@ -7,6 +7,4 @@ jobs:
     steps:
       - name: Clone
         uses: actions/checkout@v2  
-      - name: my-step
-        run: ci/build-app.sh
-        
+      - run: ci/build-app.sh
